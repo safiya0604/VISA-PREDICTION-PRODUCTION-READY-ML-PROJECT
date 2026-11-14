@@ -1,7 +1,7 @@
 import pymongo
 import certifi #it help with connection timeout issues
 import os
-
+import sys
 from Visa_prediction.exception import Visa_predictionException
 from Visa_prediction.logger import logging
 from Visa_prediction.constants import DATABASE_NAME,MONGODB_URL_KEY
