@@ -1,3 +1,4 @@
+
 from fastapi import FastAPI,Request #rquest is used to access info sent by the client  to the app/srver
 from fastapi.middleware.cors import CORSMiddleware #it helps configure which origins can access your backend
 from fastapi.responses import Response #ALLOW YOU SEND RESPONSE BACK TO CLEINT
